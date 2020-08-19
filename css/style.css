@@ -42,16 +42,19 @@ body{
     height: 45vh;
     font-family: Poppins-Bold;
     font-size: 2.3rem;
+    color: #333333;
 }
 
 .input-user p{
     font-family: Poppins-Regular;
     font-size: 0.875rem;
+    color: #333333;
 }
 
 .input-pass p{
     font-family: Poppins-Regular;
     font-size: 0.875rem;
+    color: #333333;
 }
 
 .div-data{
@@ -61,6 +64,12 @@ body{
 .div-data input{
     width: 35vh;
     height: 3.6vh;
+    border-block-start: none;
+    border-inline-end: none;
+    border-inline-start: none;
+    color: #333333;
+    font-family: Poppins-Medium;
+    font-size: 1rem;
 }
 
 .div-data .forgot-pass{
@@ -68,17 +77,23 @@ body{
     justify-content: flex-end;
 }
 
-.btn-login {
-    display: flex;
-}
-
 #login-button, #sign-button {
-    width: 100%;
+    width: 17vw;
     height: 3.6vh;
     margin: 0.5rem;
     font-family: Poppins-Medium;
     font-size: 1rem;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#ffffff 5%,#000014 40%,  #7700ff 90%);
+    border-radius: 1rem;
 }
+
+
+
 
 
 
