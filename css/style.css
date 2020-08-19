@@ -2,6 +2,21 @@ body{
     margin: 0;
 }
 
+@font-face {
+    font-family: "Poppins-Bold";
+    src: local(Poppins-Bold), url(../poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local(Poppins-Regular), url(../poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: local(Poppins-Medium), url(../poppins/Poppins-Medium.ttf);
+}
+
 #div-login {
     width: 100%;
     height: 100vh;
@@ -21,6 +36,22 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.form-login h1{
+    height: 45vh;
+    font-family: Poppins-Bold;
+    font-size: 2.3rem;
+}
+
+.input-user p{
+    font-family: Poppins-Regular;
+    font-size: 0.875rem;
+}
+
+.input-pass p{
+    font-family: Poppins-Regular;
+    font-size: 0.875rem;
 }
 
 .div-data{
@@ -45,6 +76,8 @@ body{
     width: 100%;
     height: 3.6vh;
     margin: 0.5rem;
+    font-family: Poppins-Medium;
+    font-size: 1rem;
 }
 
 
