@@ -1,7 +1,22 @@
 body{
+    margin: 0;
+}
+
+#div-login {
     width: 100%;
     height: 100vh;
-    margin: 0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.form-login {
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 60vh;
     background-image: linear-gradient(to right, #000014, #7800ff);
     display: flex;
     flex-direction: row;
@@ -9,12 +24,7 @@ body{
     align-items: center;
 }
 
-#div-login {
-    width: 20%;
-    height: 60vh;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+.form-login h1 {
+    position: relative;
+    top: -25%;
 }
