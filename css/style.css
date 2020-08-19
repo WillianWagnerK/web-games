@@ -6,25 +6,35 @@ body{
     width: 100%;
     height: 100vh;
     border-radius: 1rem;
+    background-image: linear-gradient(to right, #000014, #7800ff);
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
 }
 
-.form-login {
-    position: absolute;
-    text-align: center;
-    width: 20%;
+.form-login{
+    width: 16%;
     height: 60vh;
     background-image: linear-gradient(to right, #000014, #7800ff);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
-.form-login h1 {
-    position: relative;
-    top: -25%;
+.div-data{
+   position: fixed;
 }
+
+.div-data input{
+    width: 35vh;
+    height: 3.6vh;
+}
+
+.div-data .forgot-pass{
+    display: flex;
+    justify-content: flex-end;
+}
+
