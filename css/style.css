@@ -29,7 +29,7 @@ body{
 
 .form-login{
     width: 20vw;
-    height: 60vh;
+    height: 75vh;
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
@@ -39,7 +39,7 @@ body{
 }
 
 .form-login h1{
-    height: 45vh;
+    height: 60vh;
     font-family: Poppins-Bold;
     font-size: 2.3rem;
     color: #333333;
@@ -79,8 +79,8 @@ body{
 
 #login-button, #sign-button {
     width: 17vw;
-    height: 3.6vh;
-    margin: 0.5rem;
+    height: 5vh;
+    margin: 1rem;
     font-family: Poppins-Medium;
     font-size: 1rem;
     color: white;
@@ -88,10 +88,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right,#ffffff 5%,#000014 40%,  #7700ff 90%);
-    border-radius: 1rem;
+    background-image: linear-gradient(to right,#7800ff8a 20%,#7700ff 60%,  #4c00a2 80%);
+    border-radius: 1.5rem;
 }
 
+.p-sign-up{
+    font-family: Poppins-Regular;
+    font-size: 0.875rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.icones-socias{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.icones-socias img{
+    width: 6vh;
+    padding: 0.5vh;
+}
 
 
 
