@@ -39,7 +39,7 @@ body{
 }
 
 .form-login h1{
-    height: 60vh;
+    height: 65vh;
     font-family: Poppins-Bold;
     font-size: 2.3rem;
     color: #333333;
@@ -69,6 +69,7 @@ body{
     border-inline-start: none;
     color: #333333;
     font-family: Poppins-Medium;
+    outline: none !important;
     font-size: 1rem;
 }
 
@@ -89,6 +90,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right,#7800ff8a 20%,#7700ff 60%,  #4c00a2 80%);
+    outline: none !important;
     border-radius: 1.5rem;
 }
 
