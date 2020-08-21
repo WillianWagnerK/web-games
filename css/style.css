@@ -78,7 +78,11 @@ body{
     justify-content: flex-end;
 }
 
-#login-button, #sign-button {
+.forgot-pass:hover{
+    color: #7700ff;
+}
+
+button {
     width: 17vw;
     height: 5vh;
     margin: 1rem;
@@ -91,8 +95,59 @@ body{
     align-items: center;
     background-image: linear-gradient(to right,#7800ff8a 20%,#7700ff 60%,  #4c00a2 80%);
     outline: none !important;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem;  
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
+
+button[class^="login"]::after {
+    transition: all 0.35s;
+  }
+
+button[class^="login"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+
+button[class^="sign"]::after {
+    transition: all 0.35s;
+  }
+
+button[class^="sign"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  
+  button::after {
+    content: "";
+    background: linear-gradient(to right,#4c00a2 20%, #7700ff 60%, #7800ff8a 80%);
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+    border-radius: 1.5rem;  
+  }
+  
+  button.login_button::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+  }
+
+  button.sign_button::after {
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+  }
 
 .p-sign-up{
     font-family: Poppins-Regular;
