@@ -45,8 +45,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin: 0.855rem;
+    margin-left: 0.6rem;
+    margin-top: -99vh;
+    position: fixed;
 }
+
 
 .menu-top {
     list-style: none;
@@ -64,14 +67,32 @@ body{
     margin-right: 7rem;
     position: relative;
     font-family: Poppins-Regular;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: red;
     text-decoration: none;
 }
 
 .Start-tela{
+    color: blue;
     display: flex;
     justify-items: center;
     justify-content: center;
-    color: pink;
+}
+
+.Start-tela p{
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    padding-right: 7rem;
+    margin-top: -170vh;
+    position: relative;
+}
+
+.Start-tela h1{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    margin-top: -90vh;
+    position: absolute;
 }
